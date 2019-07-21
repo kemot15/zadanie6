@@ -15,6 +15,7 @@ public class Array {
         array[3] = scanner.nextInt();
         System.out.println("Podaj liczbe 5");
         array[4] = scanner.nextInt();
+        scanner.close();
     }
 
     public String showArray(int[] array){
