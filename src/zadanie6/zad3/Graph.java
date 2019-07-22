@@ -45,4 +45,8 @@ public class Graph {
     public void setY(int y) {
         this.y = y;
     }
+
+    public String showPoint (){
+        return x +", " + y;
+    }
 }

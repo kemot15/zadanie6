@@ -39,7 +39,6 @@ public class Product {
     }
 
     public String showInfo (){
-        Calculator calculator = new Calculator();
         return "Nazwa: " + name + "\nOpis: " + description + "\nCena netto: " + netPrice + "\nKategoria: " + category + "\nCena brutto: ";
 
     }
